@@ -16,6 +16,5 @@ A proposta é desenvolver um formulário simples em HTML, aplicar estilização 
 ## Tecnologias Utilizadas
 
 - HTML5
-- CSS3
 - Bootstrap
 - PHP

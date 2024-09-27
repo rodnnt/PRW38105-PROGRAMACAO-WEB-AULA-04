@@ -22,8 +22,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $notificacoes = 'Não';
     }    
-    
-    // Exibir os dados recebidos (para testes)
+
+    /*
+    // Exibir os dados (para testes)
     echo "<h1>Dados Recebidos</h1>";
     echo "<p><b>Classificação do site:</b> $classificacao</p>";
     echo "<p><b>Seção favorita:</b> $secao_favorita</p>";
@@ -34,7 +35,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<p><b>Nome:</b> $nome</p>";
     echo "<p><b>E-mail:</b> $email</p>";
     echo "<p><b>Telefone:</b> $telefone</p>";
-    echo "<p><b>Deseja receber notificações:</b> $notificacoes</p>";
+    echo "<p><b>Deseja receber notificações:</b> $notificacoes</p>";*/
+    echo "Formulário enviado com sucesso. Obrigado pelo envio!";
 
 } else {
 echo "<p>Método de requisição inválido.</p>";
